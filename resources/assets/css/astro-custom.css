@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 9, 2016, 12:40:21 PM
+    Author     : Unicode
+*/
+@import url("../../../public/bower_components/AdminLTE/plugins/iCheck/minimal/_all.css");
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{vertical-align: middle;}
+table.dataTable tbody th, table.dataTable tbody td, table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 10px 15px;
+}
+.dataTables_wrapper .dataTables_filter input[type="search"] {
+    border-radius: 4px;
+    margin: 5px 0 5px 10px;
+}
+.pd15{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.new-detail{
+    background: #eee;
+    padding: 10px 15px;
+    display: block;
+}
+.col-min-height > div[class*="col-"]{
+        min-height: 75px;
+}
+.small-gutter.row{
+    margin-right: -5px;
+    margin-left: -5px;  
+}
+.small-gutter > div[class*="col-"]{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.select2.select2-container.select2-container--default{ width: 100% !important;}
+.select2-container--default .select2-selection--single{ border-radius: 0; height: 34px; border: 1px solid #ccc;}
+.select2-container--default .select2-selection--single .select2-selection__arrow{ height: 32px;}
+.profile-edit{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    background: transparent;
+}
+.profile-user-img{
+    transition: all 0.3s ease;
+}
+.profile-edit:hover .profile-user-img{
+    background: rgba(0,0,0,0.5);
+}
+.profile-edit .upload-icon{
+  position: absolute;
+    top: 42%;
+    left: 52%;
+    transform: translate(-50%);
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;  
+}
+.profile-edit:hover .upload-icon{
+   opacity: 1;
+}    
+.profile-edit input[type="file"]{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+.profile-edit .change-profile{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,.54);
+    width: 100%;
+    cursor: pointer;
+    padding: 2px 0 6px;
+    font-size: 12px;
+}
+.horoscope-ui .modal-header{
+    background: #00c0ef;
+    color: #fff;
+}
+.horoscope-ui .close{
+    color: #fff; opacity: 1;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #00ACD6;
+    border-color: #00ACD6;
+}
+.horoscope-bg{
+    background: url("../img/horosope-img-blank.png") no-repeat;
+    background-size: 100%;
+    min-height: 165px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 270px;
+}
+.horo-ghar{
+    position: absolute;
+}
+.ghar-1{top: 28px;
+    left: 10px;}
+.ghar-2{     top: 4px;
+    left: 60px;}
+.ghar-3{    top: 67px;
+    left: 53px;}
+.ghar-4{    bottom: 43px;
+    left: 8px;}
+.ghar-5{    bottom: 18px;
+    left: 52px;}
+.ghar-6{    top: 4px;
+    right: 47px;}
+.ghar-7{    right: 50px;
+    bottom: 18px;;}
+.ghar-8{    top: 28px;
+    left: 120px;}
+.ghar-9{    right: 10px;
+    bottom: 43px;}
+.ghar-10{    top: 67px;
+    right: 45px;}
+.ghar-11{right: 10px;
+    top: 27px;}
+.ghar-12{    bottom: 43px;
+    left: 123px;}
+#question{
+padding-bottom: 10px;
+margin-bottom: 10px;
+border-bottom:1px solid #cecece;
+}
+textarea.form-control{
+    resize: vertical;
+}
+.table-edit-trash{margin-bottom: 0;}
+.table-edit-trash a{
+    margin:0 3px;
+    font-size: 15px;
+}
+.table-edit-trash .fa-edit{
+    color: #00c0ef;
+}
+.table-edit-trash .fa-trash-o{
+  color: #dd4b39;
+}
+.dev-soln-cont .table-edit-trash{display: none;}
+.dev-soln-cont .post:hover .table-edit-trash{
+    display: block !important;
+}
+.username a {
+    text-transform: capitalize;
+}
+.dashboard-recent ul.products-list li{
+    list-style: decimal inside;
+}
+.user-description{
+    margin-left:50px;
+}
+.dashboard-recent .products-list>.item:before{
+    display: none;
+}
+.client-profile{
+    padding: 0px 15px !important;
+    vertical-align: middle !important;   
+}
+.client-profile img{
+    max-width: 35px;
+    border-color: #00ACD6;
+    height: 35px;
+}
+.treegrid-expander{
+    font-size: 16px;
+}
+.treegrid-expander.fa-plus-circle{
+    color: #00acd6
+}
+.treegrid-expander.fa-minus-circle{
+        color: #dd4b39;
+}
+#p_details .box{
+   box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+#p_details .list-group-unbordered>.list-group-item:first-child {
+    border-top: 0;
+}
+#p_details .list-group-unbordered>.list-group-item:last-child {
+    border-bottom: 0;
+}
+.layout, .layout-column, .layout-row {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; 
+}
+
+.layout-column {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+.layout-row {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+.layout-align-space-between,
+.layout-align-space-between-center,
+.layout-align-space-between-start,
+.layout-align-space-between-end,
+.layout-align-space-between-stretch {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+.column1{
+    flex: 1 0 320px;
+        padding-right: 5px;
+}
+.column2{
+    flex: 1 1 70%;
+    padding-left: 5px;
+}
+@media screen and (max-width: 1024px) {
+    .client-details-wrap{
+            flex-wrap: wrap;
+    }
+     .client-details-wrap .column1, .client-details-wrap .column2{
+               width: 100%;
+    }
+}
